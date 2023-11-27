@@ -1,0 +1,92 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+body {
+  background-image: url(img/fondo_recipe_v3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;  
+  display: block;
+}
+
+.title {
+  text-align: center;
+}
+
+.menu {
+    width: 70%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-line {
+  padding: 0 25px;
+  margin: 0 0;
+  width: 35%;  
+}
+
+.right-line {
+  padding: 0 25px;
+  margin: auto;
+  width: 65%;
+}
+
+.item {
+  display: flex;
+}
+
+.ingredient {
+  text-align: left  ;
+  width: 75%;
+}
+
+.quantity {
+  text-align: right;
+  width: 25%;
+}
+
+p {
+  font-size: 75%;
+  text-align: center;
+}
+
+.prep-text {
+  text-align: left;
+  text-align: justify;
+  font-size: 110%;
+}
+
+/*Bottom zone*/
+
+.return {
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 100%;
+}
